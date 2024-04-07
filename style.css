@@ -1,0 +1,138 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  height:100%;
+  width:100%;
+  margin:0px;
+  padding:0px;
+  background-color:#0c0c0c;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items:center;
+ 
+}
+p,h1,h3,h2{
+  margin:0px;
+  padding:0px;
+}
+h1{
+  font-family: "Playfair Display", serif;
+}
+h2{
+  word-spacing:20px;
+}
+.card{
+  width:370px;
+  height:250px;
+  background-image:url('bg.jpg');
+  background-size:cover;
+  background-position:center;
+  border-radius:10px;
+  box-shadow: 0px 0px 50px silver;
+  font-family: "poppins",sans-serif;
+  
+  
+}
+.card .header{
+  width:370px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:10px;
+  color:white;
+  
+}
+.header img{
+  width:120px;
+  margin-right:20px;
+}
+.header span{
+  font-size:10px;
+  
+}
+.main{
+  width:300px;
+  color:white;
+  margin-left:40px;
+  font-size:14px;
+  font-family:
+}
+.main img{
+  width:50px;
+}
+.main span{
+  display:flex;
+  align-items:center;
+  margin:5px
+}
+.main p{
+  margin-right:20px;
+  font-size:5px
+}
+.footer{
+  width:370px;
+  display: flex;
+  justify-content:space-between;
+  color:white
+}
+.footer img{
+  width:100px;
+  margin-right:20px;
+  
+}
+.footer span{
+  font-size:15px;
+  margin-left:40px;
+}
+.card:hover{
+  transform:scale(1.2);
+  box-shadow: 0px 0px 50px gold;
+  transition:2s;
+}
+
+.container{
+  width:300px;
+  height:250px;
+  background-color:#0f0f0f;
+  box-shadow:0px 0px 20px silver;
+  border-radius:10px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  margin-top:50px;
+  font-family: "poppins",sans-serif;
+  padding:10px;
+}
+.container form{
+  width:100%;
+}
+.container span{
+  display:block;
+  color:gold;
+}
+.container input{
+  margin-top:10px;
+  width:270px;
+  border-radius:10px;
+  padding:10px;
+  border:none;
+  margin-bottom: 5px;
+  
+}
+.container h3{
+  color:#c20808;
+  margin:5px
+}
+input:focus{
+    outline:none;
+}
+.submit{
+  color:white;
+  background-color:#1414c4;
+  margin-left:10px;
+  font-family: "poppins",sans-serif;
+}
